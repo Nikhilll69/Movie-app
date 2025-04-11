@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link, Outlet, useLocation, useNavigate, useParams } from "react-router-dom";
 import asyncloadMovies from "../store/Actions/movieAction";
 import { removemovie } from "../store/Actions/movieAction";
-import Loader from "./loader";
+import Loader from "./Loader";
 import HorizontalCards from "./partials/HorizontalCards"
 
 const MovieDetails = () => {
